@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Maximilian Florkowski <maximilian.florkowski@tsaro.io>
 
-RUN apk add --update nodejs bash
+RUN apk add --update nodejs
 
 RUN [ "mkdir", "-p", "/opt/tsaro-ip-server" ]
 
